@@ -3,7 +3,6 @@
     font-family:  'Courier New', Courier, monospace;
     box-sizing: border-box;
     color:rgb(250, 237, 215);
-    border: solid rgba(255, 0, 0, 0.0);
 }
 
 body {
@@ -25,10 +24,42 @@ body {
 }
 
 #heading {
+    display: inline-block;
     font-size: 90px;
     font-weight: 500;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    
+}
+
+.navigation-bar {
+    height: 2.5em;
+    border: 1px solid rgba(255, 0, 0, 0);
+    display: flex;
+}
+
+.nav-button{    
+    border: 0 2px 0 solid red;
+    margin: 0 auto;
+    padding: 5px 50px;
+    background-color: rgb(217, 49, 49);
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+.nav-button:link {
+    text-decoration: none;
+}
+.nav-button:hover {
+    text-decoration: underline;
+    background-color: brown;
+}
+.nav-button:active {
+    text-decoration: underline;
+}
+
+.content {
     
 }
 
@@ -41,7 +72,7 @@ body {
 
 .welcomeText {
     font-size: 24px;
-    border: 5px;
+    
     text-align: justify;
     text-justify: inter-word;
 }
@@ -60,4 +91,5 @@ body {
 
 code {
     font-family: monospace;
+    background-color: rgba(128, 128, 128, 0.255);
 }
