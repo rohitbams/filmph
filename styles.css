@@ -32,20 +32,28 @@ body {
     
 }
 
+
 .navigation-bar {
     height: 2.5em;
     border: 1px solid rgba(255, 0, 0, 0);
     display: flex;
-}
+    justify-content: space-between;
+    align-items: center;
+    
+
+}   
 
 .nav-button{    
+    display: flex;;
     border: 0 2px 0 solid red;
     margin: 0 auto;
     padding: 5px 50px;
     background-color: rgb(217, 49, 49);
     font-size: 22px;
     font-weight: 600;
-    
+    flex: 1;
+    height: max-content;
+    justify-content: center;
 }
 
 .nav-button:link {
